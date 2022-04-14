@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3df990-e4dc-47e4-8be2-1789baed1403" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Good.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/model/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/model/Good.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649771670344</updated>
       <workItem from="1649771671621" duration="6356000" />
-      <workItem from="1649935878390" duration="3233000" />
+      <workItem from="1649935878390" duration="10304000" />
     </task>
     <servers />
   </component>
