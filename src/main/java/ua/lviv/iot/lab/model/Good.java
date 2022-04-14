@@ -12,8 +12,8 @@ public abstract class Good {
     private String name;
     private int quantity;
     private String manufacturer;
-    private float price;
-    private float weight;
+    private float priceInUAH;
+    private float weightInKilos;
     private boolean isForHikingCamping;
 
 }
