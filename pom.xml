@@ -5,15 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ua.lviv.iot</groupId>
-    <artifactId>iot_laba</artifactId>
+    <artifactId>campingShopProject</artifactId>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
+    <name>campingShopProject</name>
+    <url>https://maven.apache.org</url>
     <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
