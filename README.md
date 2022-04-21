@@ -1,13 +1,6 @@
 Лабораторна робота 2
 Опис завдання:
-Реалізувати ієрархію класів до завдання з лабораторної №2 (Кемпінг. Реалізуйте ієрархію товарів, які продаються для бажаючих піти в похід і розбити кемпінг)
-При записі програми потрібно використовувати домовленості щодо оформлення коду java code convention.
-Класи потрібно грамотно розкласти по пакетах.
-Робота з консоллю або консольне меню повинні бути мінімальними.
-Важливо: необхідно реалізувати лише ієрархію класів, код пошуку елементів у списках чи колекціях не входить в 2гу роботу
-Також слід створити обєкти реалізованих вами класів у окремому класі Main, який міститиме main метод
-Слід додати своє прізвище в таблицю до завдання 2 коло обраного варіанту (обирати слід самостійно)
-Якщо вільних варіантів в документі більше не буде - слід написати викладачу і отримати варіант від нього
+Реалізувати ієрархію класів до завдання з лабораторної №2 (Кемпінг. Реалізуйте ієрархію товарів, які продаються для бажаючих піти в похід і розбити кемпінг). Також слід створити обєкти реалізованих вами класів у окремому класі Main, який міститиме main метод
 
 Лабораторна робота 3
 Опис завдання:
@@ -15,15 +8,20 @@
 Реалізувати пошук товарів, які можна використати в пішому поході. Виведіть результат, відсортований за вагою товару та іменем виробника
 Реалізувати можливість  сортування за вагою товару
 Реалізація сортування має передбачати можливість сортувати як за спаданням, так і за зростанням
-Для сортування слід використати вбудовані методи сортування, доступні в мові Java
-Сортування слід реалізувати в окремому методі
-Код немає містити статичних методів/атрибутів. Дозволено лиш один статичний метод - void
-Код має використовувати перелічувальний тип (Enum) (за потреби)
 
 Лабораторна робота 4
 Опис завдання:
 Перетворити проект з кодом 2-3 роботи таким чином, щоб його збірку можна було виконувати з-за допомогою  maven. 
-При цьому варто зробити команду merge попередніх робіт в master
-Важливо: збірку проекту слід виконувати з консолі командою mvn clean package
-Згенерувати pom.xml можна з використанням команди maven (слід виконувати з консолі):
-mvn archetype:generate -DgroupId=ua.lviv.iot -DartifactId=work -Dversion=1.0-SNAPSHOT -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.0 -DinteractiveMode=false
+
+Lab 2
+Task description:
+Implement the hierarchy of classes for the task of lab №2(Camping. Implement the hierarchy of goods sold for those wishing to go camping). You should also create objects of the classes you have implemented in a separate Main class, which will contain the main method
+
+Lab 3
+Task description:
+You need to create a class - Manager that will contain logic(example for variant 64):
+Search for products that can be used for hiking. Display the result sorted by product weight and manufacturer name/ Implement the ability to sort by weight of goods. The implementation of sorting should provide the ability to sort both in descending and ascending order
+
+Lab 4
+Task description:
+Convert a project with 2-3 labs' code so that its build can be done with maven.
