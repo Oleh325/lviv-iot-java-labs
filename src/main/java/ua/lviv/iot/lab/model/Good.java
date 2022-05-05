@@ -16,4 +16,12 @@ public abstract class Good {
     private float weightInKilos;
     private boolean isForHikingCamping;
 
+    public String getHeaders() {
+        return "name, quantity, manufacturer, priceInUAH, weightInKilos, isForHikingCamping";
+    }
+
+    public String toCSV() {
+        return name + ", " + quantity + ", " + manufacturer + ", "
+                + priceInUAH + ", " + weightInKilos + ", " + isForHikingCamping;
+    }
 }

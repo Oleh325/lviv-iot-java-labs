@@ -14,4 +14,12 @@ public class Lighter extends Good {
         super(name, quantity, manufacturer, price, weight, isForHikingCamping);
         this.gasQuantity = gasQuantity;
     }
+
+    public String getHeaders() {
+        return super.getHeaders() + ", gasQuantity";
+    }
+
+    public String toCSV() {
+        return super.toCSV() + ", " + gasQuantity;
+    }
 }

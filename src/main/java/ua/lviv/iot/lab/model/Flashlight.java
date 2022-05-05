@@ -14,4 +14,12 @@ public class Flashlight extends Good {
         super(name, quantity, manufacturer, price, weight, isForHikingCamping);
         this.brightness = brightness;
     }
+
+    public String getHeaders() {
+        return super.getHeaders() + ", brightness";
+    }
+
+    public String toCSV() {
+        return super.toCSV() + ", " + brightness;
+    }
 }

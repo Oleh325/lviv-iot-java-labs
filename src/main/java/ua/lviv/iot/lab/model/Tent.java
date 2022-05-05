@@ -21,4 +21,13 @@ public class Tent extends Good {
         this.maxCapacity = maxCapacity;
         this.type = type;
     }
+
+
+    public String getHeaders() {
+        return super.getHeaders() + ", area, height, maxCapacity, type";
+    }
+
+    public String toCSV() {
+        return super.toCSV() + ", " + area + ", " + height + ", " + maxCapacity + ", " + type;
+    }
 }

@@ -7,10 +7,11 @@
     <list default="true" id="8e3df990-e4dc-47e4-8be2-1789baed1403" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/manager/impl/CampingShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/manager/impl/CampingShopManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Blanket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Blanket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Flashlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Flashlight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Good.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Lighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Lighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Tent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/model/Tent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/model/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/model/Good.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,10 +59,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ua.lviv.iot.lab.model" />
       <recent name="ua.lviv.iot.lab.manager.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CampingShopManagerTest">
+  <component name="RunManager" selected="JUnit.GoodWriterTest.testWriteToFile">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.lab.Main" />
       <module name="iot_laba" />
@@ -122,8 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoodWriterTest.testWriteToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iot_laba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.lab.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.lab.model" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.lab.model.GoodWriterTest" />
+      <option name="METHOD_NAME" value="testWriteToFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoodWriterTest.testWriteToFile" />
         <item itemvalue="JUnit.CampingShopManagerTest" />
         <item itemvalue="JUnit.CampingShopManagerTest.testFindForHikingCamping" />
         <item itemvalue="JUnit.CampingShopManagerTest.testAddGoods" />
@@ -142,7 +161,7 @@
       <workItem from="1649771671621" duration="6356000" />
       <workItem from="1649935878390" duration="10304000" />
       <workItem from="1651499679597" duration="382000" />
-      <workItem from="1651763549159" duration="4699000" />
+      <workItem from="1651763549159" duration="7962000" />
     </task>
     <servers />
   </component>
@@ -150,7 +169,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/iot_laba$CampingShopManagerTest.ic" NAME="CampingShopManagerTest Coverage Results" MODIFIED="1651767201352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/iot_laba$CampingShopManagerTest.ic" NAME="CampingShopManagerTest Coverage Results" MODIFIED="1651768497772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ua.lviv.iot.lab.manager.impl.*</FILTER>
     </SUITE>
   </component>

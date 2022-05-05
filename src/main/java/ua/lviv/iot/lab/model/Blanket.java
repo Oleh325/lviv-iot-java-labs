@@ -14,4 +14,12 @@ public class Blanket extends Good {
         super(name, quantity, manufacturer, price, weight, isForHikingCamping);
         this.thickness = thickness;
     }
+
+    public String getHeaders() {
+        return super.getHeaders() + ", thickness";
+    }
+
+    public String toCSV() {
+        return super.toCSV() + ", " + thickness;
+    }
 }
