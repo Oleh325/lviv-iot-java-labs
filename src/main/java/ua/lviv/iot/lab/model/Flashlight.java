@@ -9,8 +9,8 @@ public class Flashlight extends Good {
 
     private float brightness;
 
-    public Flashlight(String name, int quantity, String manufacturer, float price,
-                   float weight, boolean isForHikingCamping, float brightness) {
+    public Flashlight(final String name, final int quantity, final String manufacturer, final float price,
+                      final float weight, final boolean isForHikingCamping, final float brightness) {
         super(name, quantity, manufacturer, price, weight, isForHikingCamping);
         this.brightness = brightness;
     }

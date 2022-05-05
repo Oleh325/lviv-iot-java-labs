@@ -13,7 +13,7 @@ public class CampingShopManager implements ICampingShopManager {
     private List<Good> goodsList = new LinkedList<>();
 
     @Override
-    public void addGoods(List<Good> goods) {
+    public void addGoods(final List<Good> goods) {
         goodsList.addAll(goods);
     }
 
@@ -31,7 +31,7 @@ public class CampingShopManager implements ICampingShopManager {
     }
 
     @Override
-    public List<Good> findByName(String name) {
+    public List<Good> findByName(final String name) {
         List<Good> result = new LinkedList<>();
 
         goodsList.forEach(good -> {
@@ -44,7 +44,7 @@ public class CampingShopManager implements ICampingShopManager {
     }
 
     @Override
-    public void sortGoodsByWeight(boolean isDescending) {
+    public void sortGoodsByWeight(final boolean isDescending) {
         if (isDescending) {
             goodsList = goodsList.stream()
                     .sorted(Comparator.comparing(Good::getWeightInKilos).reversed())
@@ -57,7 +57,7 @@ public class CampingShopManager implements ICampingShopManager {
     }
 
     @Override
-    public void sortGoodsByName(boolean isDescending) {
+    public void sortGoodsByName(final boolean isDescending) {
         if (isDescending) {
             goodsList = goodsList.stream()
                     .sorted(Comparator.comparing(Good::getName).reversed())
