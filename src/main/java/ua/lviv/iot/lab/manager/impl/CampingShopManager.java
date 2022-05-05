@@ -13,6 +13,11 @@ public class CampingShopManager implements ICampingShopManager {
     private List<Good> goodsList = new LinkedList<>();
 
     @Override
+    public void addGoods(List<Good> goods) {
+        goodsList.addAll(goods);
+    }
+
+    @Override
     public List<Good> findForHikingCamping() {
         List<Good> result = new LinkedList<>();
 
@@ -30,19 +35,12 @@ public class CampingShopManager implements ICampingShopManager {
         List<Good> result = new LinkedList<>();
 
         goodsList.forEach(good -> {
-            if (good.getName() == name) {
+            if (Objects.equals(good.getName(), name)) {
                 result.add(good);
             }
         });
 
         return result;
-    }
-
-    @Override
-    public void addGoods(List<Good> goods) {
-        goods.forEach(good -> {
-                goodsList.add(good);
-        });
     }
 
     @Override

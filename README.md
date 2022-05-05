@@ -10,3 +10,7 @@ Search for products that can be used for hiking. Display the result sorted by pr
 Lab 4
 Task description:
 Convert a project with 2-3 labs' code so that its build can be done with maven.
+
+Lab 5
+Task description:
+In 5th lab it is necessary to write modular tests for the code of labs №2-4 and to reach a level of coverage by tests of 80%.

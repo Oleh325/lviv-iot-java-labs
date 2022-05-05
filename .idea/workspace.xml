@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3df990-e4dc-47e4-8be2-1789baed1403" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/manager/impl/CampingShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/lab/manager/impl/CampingShopManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/model/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/lab/model/Good.class" afterDir="false" />
     </list>
@@ -21,6 +23,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,6 +41,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -49,8 +54,14 @@
       <recent name="D:\My Projects\iot_laba\src" />
       <recent name="D:\My Projects\iot_laba\src\main" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ua.lviv.iot.lab.manager.impl" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CampingShopManagerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.lab.Main" />
       <module name="iot_laba" />
@@ -64,8 +75,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CampingShopManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iot_laba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.lab.manager.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.lab.manager.impl" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.lab.manager.impl.CampingShopManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CampingShopManagerTest.testAddGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iot_laba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.lab.manager.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.lab.manager.impl" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.lab.manager.impl.CampingShopManagerTest" />
+      <option name="METHOD_NAME" value="testAddGoods" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CampingShopManagerTest.testFindForHikingCamping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iot_laba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.lab.manager.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.lab.manager.impl" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.lab.manager.impl.CampingShopManagerTest" />
+      <option name="METHOD_NAME" value="testFindForHikingCamping" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CampingShopManagerTest" />
+        <item itemvalue="JUnit.CampingShopManagerTest.testFindForHikingCamping" />
+        <item itemvalue="JUnit.CampingShopManagerTest.testAddGoods" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -80,10 +141,17 @@
       <updated>1649771670344</updated>
       <workItem from="1649771671621" duration="6356000" />
       <workItem from="1649935878390" duration="10304000" />
+      <workItem from="1651499679597" duration="382000" />
+      <workItem from="1651763549159" duration="4699000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/iot_laba$CampingShopManagerTest.ic" NAME="CampingShopManagerTest Coverage Results" MODIFIED="1651767201352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.lviv.iot.lab.manager.impl.*</FILTER>
+    </SUITE>
   </component>
 </project>
