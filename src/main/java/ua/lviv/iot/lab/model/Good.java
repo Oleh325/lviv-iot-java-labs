@@ -1,6 +1,10 @@
 package ua.lviv.iot.lab.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
@@ -17,7 +21,8 @@ public abstract class Good {
     private boolean isForHikingCamping;
 
     public String getHeaders() {
-        return "name, quantity, manufacturer, priceInUAH, weightInKilos, isForHikingCamping";
+        return "name, quantity, manufacturer, " +
+                "priceInUAH, weightInKilos, isForHikingCamping";
     }
 
     public String toCSV() {

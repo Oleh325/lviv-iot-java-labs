@@ -7,7 +7,7 @@ import java.util.List;
 
 public class GoodWriter {
 
-    public void writeToFile(List<Good> goods) throws IOException {
+    public void writeToFile(final List<Good> goods) throws IOException {
         final File file = new File("result.csv");
 
         try (FileWriter writer = new FileWriter(file);) {
@@ -21,4 +21,3 @@ public class GoodWriter {
     }
 
 }
-

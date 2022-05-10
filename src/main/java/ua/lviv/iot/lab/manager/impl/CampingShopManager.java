@@ -4,7 +4,11 @@ import lombok.Getter;
 import ua.lviv.iot.lab.manager.ICampingShopManager;
 import ua.lviv.iot.lab.model.Good;
 
-import java.util.*;
+
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 @Getter
@@ -47,8 +51,8 @@ public class CampingShopManager implements ICampingShopManager {
     public void sortGoodsByWeight(final boolean isDescending) {
         if (isDescending) {
             goodsList = goodsList.stream()
-                    .sorted(Comparator.comparing(Good::getWeightInKilos).reversed())
-                    .collect(Collectors.toList());
+                    .sorted(Comparator.comparing(Good::getWeightInKilos)
+                    .reversed()).collect(Collectors.toList());
         } else {
             goodsList = goodsList.stream()
                     .sorted(Comparator.comparing(Good::getWeightInKilos))

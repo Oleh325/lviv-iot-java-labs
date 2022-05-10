@@ -9,8 +9,10 @@ public class Blanket extends Good {
 
     private float thickness;
 
-    public Blanket(final String name, final int quantity, final String manufacturer, final float price,
-                   final float weight, final boolean isForHikingCamping, final float thickness) {
+    public Blanket(final String name, final int quantity,
+                   final String manufacturer, final float price,
+                   final float weight, final boolean isForHikingCamping,
+                   final float thickness) {
         super(name, quantity, manufacturer, price, weight, isForHikingCamping);
         this.thickness = thickness;
     }
