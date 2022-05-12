@@ -9,9 +9,19 @@ public class Lighter extends Good {
 
     private float gasQuantity;
 
-    public Lighter(String name, int quantity, String manufacturer, float price,
-                      float weight, boolean isForHikingCamping, float gasQuantity) {
+    public Lighter(final String name, final int quantity,
+                   final String manufacturer, final float price,
+                   final float weight, final boolean isForHikingCamping,
+                   final float gasQuantity) {
         super(name, quantity, manufacturer, price, weight, isForHikingCamping);
         this.gasQuantity = gasQuantity;
+    }
+
+    public String getHeaders() {
+        return super.getHeaders() + ", gasQuantity";
+    }
+
+    public String toCSV() {
+        return super.toCSV() + ", " + gasQuantity;
     }
 }
