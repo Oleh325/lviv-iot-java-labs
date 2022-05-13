@@ -33,6 +33,6 @@ Also, checkstyle and spotbugs plugins should be added to pom.xml and the code sh
 \
 **Lab 7**\
 Task description:\
-Write the code for the task: Replace the addresses in the text with the words ADDRESS, where the address is presented in the form of cityName, p. StreetName, buildingNumber(eg Lviv, str Naukova, 7b). Text should be entered from the console.\
+Write the code for the task: Replace the addresses in the text with the words ADDRESS, where the address is presented in the form of cityName, p. StreetName, buildingNumber(eg Lviv, str Naukova, 7b).\
 The validity of the code should be checked through tests.\
 Performing operations on the text should be done with the help of objects(the use of static methods is prohibited).
