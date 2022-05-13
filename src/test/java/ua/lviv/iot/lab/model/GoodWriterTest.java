@@ -3,7 +3,6 @@ package ua.lviv.iot.lab.model;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ua.lviv.iot.lab.manager.impl.CampingShopManager;
 
 import java.io.File;
 import java.io.IOException;
