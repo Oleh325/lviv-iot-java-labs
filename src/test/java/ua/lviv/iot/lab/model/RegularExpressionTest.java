@@ -21,8 +21,8 @@ class RegularExpressionTest {
     @Test
     void findRegularExpressionInTextTest() {
         expression.setText("TEXT, str. TEXT, 123C; Lviv, str. Naukova, 7a" +
-                "/// blah blah ww, str. sth, 228-9");
-        String expected = "ADDRESS; ADDRESS/// blah blah ADDRESS-9";
+                "/// Kryvyi Rih, str. sth, 228-9 Lv7 ase, str. swq, 69QB");
+        String expected = "ADDRESS; ADDRESS/// ADDRESS-9 Lv7 ADDRESSB";
         Assertions.assertEquals(expected, expression.findRegularExpressionInText());
     }
 
